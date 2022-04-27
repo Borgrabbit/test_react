@@ -2,10 +2,15 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#grid_vanila,#grid_redux {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
+
+#grid_vanila { border: 2px solid red; margin:5px;}
+#grid_vanila div { border: 2px solid red; margin:5px;}
+#grid_redux { border: 2px solid blue; margin:5px;}
+#grid_redux div { border: 2px solid blue; margin:5px;}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
